@@ -1,0 +1,56 @@
+.feed__container {
+  flex: 0.6;
+  margin: 10px;
+}
+
+.feed__postbox {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 5px 5px 10px lightgray;
+}
+
+.postbox__input {
+  display: flex;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid lightgray;
+  outline: gray;
+  margin-top: 10px;
+  /* color: gray; */
+  /* background-color: whitesmoke; */
+  border-radius: 2rem;
+  /* width: 100%; */
+}
+
+.postbox__input:hover {
+  background-color: whitesmoke;
+}
+
+.postbox__input input {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+/* .postbox__input > input:hover {
+  color: black;
+} */
+
+.postbox__input input::placeholder {
+  color: lightgray;
+}
+.post__icon {
+  color: gray;
+  margin: 0 10px;
+}
+
+.postbox__input button {
+  display: none;
+}
+
+.postbox__upload__icons {
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-around;
+}

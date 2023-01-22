@@ -1,0 +1,30 @@
+.icons {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  padding: 5px;
+  align-items: center;
+  /* justify-content: center; */
+  margin: 10px 0;
+  color: #8f8f8f;
+  cursor: pointer;
+}
+
+.icons:hover {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  /* padding: 5px; */
+}
+
+.icons p {
+  font-size: 13px;
+  font-weight: 600;
+  color: gray;
+  /* font-weight: bold; */
+}
+
+.icons > span {
+  /* object-fit: fill; */
+  /* height: 15px; */
+  margin-right: 5px;
+}
