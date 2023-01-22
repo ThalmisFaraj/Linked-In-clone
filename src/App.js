@@ -39,14 +39,16 @@ function App() {
   return (
     <Fragment>
       <div className="app">
-        <Header />
         {!user ? (
           <Login className="login" />
         ) : (
-          <div className="app__body">
-            <Sidebar className="sidebar" />
-            <Feed className="feed" />
-          </div>
+          <>
+            <Header />
+            <div className="app__body">
+              <Sidebar className="sidebar" />
+              <Feed className="feed" />
+            </div>
+          </>
         )}
       </div>
     </Fragment>
