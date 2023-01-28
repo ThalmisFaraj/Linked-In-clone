@@ -39,12 +39,16 @@ function Header() {
         </div>
       </div>
       <div className="header__right">
-        <HeaderOptions Icon={HomeIcon} title="Home" />
-        <HeaderOptions Icon={SupervisorAccountIcon} title="My Network" />
-        <HeaderOptions Icon={BusinessCenterIcon} title="Jobs" />
-        <HeaderOptions Icon={MessageIcon} title="Messages" />
-        <HeaderOptions Icon={NotificationsIcon} title="Notifications" />
-        <HeaderOptions avatar={true} title="Me" onClick={logoutApp} />
+        <div className="header__right__icons">
+          <HeaderOptions Icon={HomeIcon} title="Home" />
+          <HeaderOptions Icon={SupervisorAccountIcon} title="My Network" />
+          <HeaderOptions Icon={BusinessCenterIcon} title="Jobs" />
+          <HeaderOptions Icon={MessageIcon} title="Messages" />
+          <HeaderOptions Icon={NotificationsIcon} title="Notifications" />
+        </div>
+        <div className="header__right__avatar">
+          <HeaderOptions avatar={true} title="Me" onClick={logoutApp} />
+        </div>
       </div>
     </div>
   );

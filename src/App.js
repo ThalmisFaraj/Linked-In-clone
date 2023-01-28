@@ -43,7 +43,9 @@ function App() {
           <Login className="login" />
         ) : (
           <>
-            <Header />
+            <div className="header">
+              <Header />
+            </div>
             <div className="app__body">
               <Sidebar className="sidebar" />
               <Feed className="feed" />

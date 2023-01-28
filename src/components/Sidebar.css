@@ -98,3 +98,10 @@ p.sidebar__statnumber {
 .recent__item > span {
   margin: 0 10px;
 }
+
+@media (max-width: 660px) {
+  .sidebar__container {
+    /* top: 80px; */
+    position: static;
+  }
+}

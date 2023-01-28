@@ -1,3 +1,6 @@
+body {
+  background-color: #f3f3ef;
+}
 .app {
   background-color: #f3f3ef;
   display: flex;
@@ -14,14 +17,24 @@
 
   /* justify-content: flex-start; */
 }
-/* .sidebar { */
-/* flex: 0.2; */
-/* } */
-/* 
 
-.feed {
-  flex: 0.6;
-} */
-/* .login {
-  margin-top: 100px;
-} */
+.header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  /* margin: 0; */
+  justify-content: space-evenly;
+  /* border: 0.1px solid lightgray; */
+  padding: 0.25rem 0 0.25rem 0;
+  width: 100%;
+
+  background-color: white;
+}
+
+@media (max-width: 660px) {
+  .app__body {
+    display: flex;
+    flex-direction: column;
+  }
+}

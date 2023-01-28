@@ -54,3 +54,11 @@
   margin: 10px 0;
   justify-content: space-around;
 }
+
+@media (max-width: 660px) {
+  .feed__postbox {
+    top: 80px;
+    position: sticky;
+    z-index: 1000;
+  }
+}
